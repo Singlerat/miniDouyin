@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161823">
+        <TextView
+            android:id="@+id/title"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发布"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:gravity="center"/>
+
+        <RelativeLayout
+            android:id="@+id/pic1"
+            android:layout_below="@id/title"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:id="@+id/pic3"
+                android:layout_width="wrap_content"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edit_detail"
+                    android:layout_width="230dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:hint="写标题并使用合适的话题，能让更多人看到~"
+                    android:textColorHint="#8b8c91"
+                    android:textColor="#8b8c91"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_below="@id/edit_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/ic_topic" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ic_friend" />
+                </LinearLayout>
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/edit_detail"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/iv_cover"
+                        android:scaleType="fitXY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#FFFFFF" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_below="@id/pic1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/location"/>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/ib_draft"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_draft"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="bottom"
+                android:background="#00000000"
+                />
+            <ImageButton
+                android:id="@+id/ib_post"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitCenter"
+                android:background="#00000000"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:src="@drawable/ic_inner_post"/>
+        </LinearLayout>
+</RelativeLayout>

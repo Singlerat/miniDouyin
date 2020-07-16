@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">zju抖音</string>
+    <string name="request_data">请求数据</string>
+    <string name="requesting">请求中...</string>
+    <string name="select_an_image">选择图片</string>
+    <string name="select_a_video">选择视频</string>
+    <string name="post_it">上传</string>
+    <string name="posting">上传中...</string>
+    <string name="refresh_feed">刷新</string>
+    <string name="success_try_refresh">上传成功！</string>
+    <string name="title_activity_cover">CoverActivity</string>
+    <string name="inner_circle" translatable="false">m 109.0,27.0 h 0.0 c 45.29,0.0,82.0,36.71,82.0,82.0 v 0.0 c 0.0,45.29,-36.71,82.0,-82.0,82.0 h 0.0 c -45.29,0.0,-82.0,-36.71,-82.0,-82.0 v 0.0 c 0.0,-45.29,36.71,-82.0,82.0,-82.0 L 109.0,27.0z</string>
+    <string name="square" translatable="false">m 80.0,69.0 h 60.0 c 5.52,0.0,10.0,4.48,10.0,10.0 v 60.0 c 0.0,5.52,-4.48,10.0,-10.0,10.0 h -60.0 c -5.52,0.0,-10.0,-4.48,-10.0,-10.0 v -60.0 c 0.0,-5.52,4.48,-10.0,10.0,-10.0 L 80.0,69.0z</string>
+</resources>

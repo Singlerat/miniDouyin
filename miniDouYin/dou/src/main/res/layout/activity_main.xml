@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#191818"
+    tools:context=".IndexActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#191818"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tx_brand_message"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="消息"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/gray" />
+        <TextView
+            android:id="@+id/tx_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:text="联系人"
+            android:textColor="@color/gray"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_fans"
+            android:layout_weight="25"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="#191818"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/btn_like"
+            android:layout_weight="25"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="#191818"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/btn_mine"
+            android:layout_weight="25"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="#191818"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/btn_comment"
+            android:layout_weight="25"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="#191818"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:text="粉丝" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:text="喜欢" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:text="\@我的" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:text="评论" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
